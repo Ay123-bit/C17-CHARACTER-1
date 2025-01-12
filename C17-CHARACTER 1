@@ -1,9 +1,14 @@
 //INPUT 
 #include<stdio.h>
 int main(){
-char ch='a';
-printf("The character is : %c", ch);
+char ch1='a', ch2 ='{';
+
+printf("The first character is : %c\n", ch1);
+printf("The second character is : %c\n", ch2);
+
     return 0;
 }
 //OUTPUT
-The character is : a
+The first character is : a
+The second character is : {
+
